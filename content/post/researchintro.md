@@ -1,6 +1,8 @@
 +++
 title = "Topic of Research"
-description = "Description and explanation of topics being researched."
+description = """Description and explanation of topics being researched.  
+
+Topics include image upscaling and style transfer using artificial intelligence.  More in-depth information included in the post."""
 date = "2022-02-20"
 comments = "true"
 +++
@@ -23,13 +25,10 @@ So far, the beginning research I’ve performed was looking for a paper dealing 
 
 The paper that I have found was [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://link.springer.com/chapter/10.1007/978-3-319-46475-6_43).  It deals with a super-resolution neural network that is optimized for real-time use while still having accurate upscaling results compared to other algorithms.  It also allows for real-time style transfer with less artifacts than normal networks in use at the moment.  For example, here are some results of the network compared to results of other algorithms :
 
-![image2](/images/image4.png)
-![](/images/image2.png)
+![image4](https://user-images.githubusercontent.com/54772966/158305703-15c8e1a7-b979-472d-9988-799ba9719604.png)
+![image2](https://user-images.githubusercontent.com/54772966/158305733-a5a4bc0d-58b2-419e-bbea-7d9ed2eae3dc.png)
 
 The software that I was able to find is called [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).  Real-ESRGAN is a useful tool that can upscale images and videos for effective digital restoration.  It uses a custom neural network model to perform these jobs.  A few examples of the tool and its results are below :
 
-{{< imgcap title="The national parks preserve wild life" src="image0.png" >}}
-
-![image](/images/image0.png)
-
-![](/images/image1.png)
+![image0](https://user-images.githubusercontent.com/54772966/158305755-eeab2949-32b0-4faf-91c2-e270ff7da8c5.png)
+![image1](https://user-images.githubusercontent.com/54772966/158305762-7b0c15ca-7ee6-48ff-957d-61bb72fce9ab.png)
