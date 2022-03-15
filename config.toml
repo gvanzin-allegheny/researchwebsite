@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://researchwebsite580.netlify.app/'
 languageCode = 'en-us'
 title = 'Junior Seminar Research'
 theme = 'Hugo-Octopress-master'
@@ -90,7 +90,7 @@ post = "/blog/:year-:month-:day-:title/" # change the post URL to look like the 
 # If it does not exist or is set to false then links will open in the same window
 [[menu.main]]
   Name = "test location"
-  URL = "https://www.example.net/"
+  URL = "https://researchwebsite580.netlify.app/"
   weight = -5
 
 #[[menu.main]]
