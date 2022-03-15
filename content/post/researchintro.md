@@ -30,6 +30,3 @@ The software that I was able to find is called [Real-ESRGAN](https://github.com/
 
 ![image0](https://user-images.githubusercontent.com/54772966/158305755-eeab2949-32b0-4faf-91c2-e270ff7da8c5.png)
 ![image1](https://user-images.githubusercontent.com/54772966/158305762-7b0c15ca-7ee6-48ff-957d-61bb72fce9ab.png)
-
-
-{{< imgcap title="The national parks preserve wild life" src="image0.png" >}}
