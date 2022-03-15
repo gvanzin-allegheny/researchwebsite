@@ -2,77 +2,34 @@
 title = "Topic of Research"
 description = "Description and explanation of topics being researched."
 date = "2022-02-20"
+comments = "true"
 +++
 
-## Step 1. Install Hugo
+## General Topic :
 
-Goto [hugo releases](https://github.com/spf13/hugo/releases) and download the
-appropriate version for your os and architecture.
+My topic of study is the field of artificial intelligence such as neural networks and machine learning.  To be more specific, I’m planning to narrow down my research to image-processing with AI.  A few examples of this are **image-upscaling** algorithms and **style transfer** as well.
 
-Save it somewhere specific as we will be using it in the next step.
+**Image upscaling** is when an algorithm takes a low-resolution image and upscales the image to a larger resolution while also making the image crisper by deciding how details should be added.
 
-More complete instructions are available at [installing hugo](/overview/installing/)
+**Style transfer** is the process of transferring the theme of one image to another image with the use of neural networks.
 
-## Step 2. Build the Docs
+## Reason for Study :
 
-Hugo has its own example site which happens to also be the documentation site
-you are reading right now.
+The main reason I’m focusing on artificial intelligence is due to how interesting the topics in my Artificial Intelligence were.  Machine learning and neural networks can solve problems that normal algorithms cannot and they can be used throughout many different fields.  Since I’m minoring in Art, Science, and Innovation, I wanted to focus on an Art themed project so that is why I’m researching super-resolution and style transfer tech.
 
-Follow the following steps:
+## Research Performed :
 
- 1. Clone the [hugo repository](http://github.com/spf13/hugo)
- 2. Go into the repo
- 3. Run hugo in server mode and build the docs
- 4. Open your browser to http://localhost:1313
+So far, the beginning research I’ve performed was looking for a paper dealing with the topic I’m focusing on and finding a piece of software that incorporates these ideas as well. 
 
-Corresponding pseudo commands:
+The paper that I have found was [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://link.springer.com/chapter/10.1007/978-3-319-46475-6_43).  It deals with a super-resolution neural network that is optimized for real-time use while still having accurate upscaling results compared to other algorithms.  It also allows for real-time style transfer with less artifacts than normal networks in use at the moment.  For example, here are some results of the network compared to results of other algorithms :
 
-    git clone https://github.com/spf13/hugo
-    cd hugo
-    /path/to/where/you/installed/hugo server --source=./docs
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Press ctrl+c to stop
+![image2](/images/image4.png)
+![](/images/image2.png)
 
-Once you've gotten here, follow along the rest of this page on your local build.
+The software that I was able to find is called [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).  Real-ESRGAN is a useful tool that can upscale images and videos for effective digital restoration.  It uses a custom neural network model to perform these jobs.  A few examples of the tool and its results are below :
 
-## Step 3. Change the docs site
+{{< imgcap title="The national parks preserve wild life" src="image0.png" >}}
 
-Stop the Hugo process by hitting ctrl+c.
+![image](/images/image0.png)
 
-Now we are going to run hugo again, but this time with hugo in watch mode.
-
-    /path/to/hugo/from/step/1/hugo server --source=./docs --watch
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Watching for changes in /Users/spf13/Code/hugo/docs/content
-    > Press ctrl+c to stop
-
-
-Open your [favorite editor](http://vim.spf13.com) and change one of the source
-content pages. How about changing this very file to *fix the typo*. How about changing this very file to *fix the typo*.
-
-Content files are found in `docs/content/`. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-`docs/content/overview/quickstart.md`.
-
-Change and save this file.. Notice what happened in your terminal.
-
-    > Change detected, rebuilding site
-
-    > 29 pages created
-    > 0 tags index created
-    > in 26 ms
-
-Refresh the browser and observe that the typo is now fixed.
-
-Notice how quick that was. Try to refresh the site before it's finished building.. I double dare you.
-Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.
-
-## Step 4. Have fun
-
-The best way to learn something is to play with it.
+![](/images/image1.png)
