@@ -1,4 +1,114 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Junior Seminar Research'
 theme = 'Hugo-Octopress-master'
+
+# Disqus shortcode
+# Disable comments for any individual post by adding "comments: false" in its frontmatter
+# Note it's not under [params] anymore
+# disqusShortname = "Your disqus shortname"
+
+# Number of blog posts in each pagination page
+paginate = 7
+
+[permalinks]
+post = "/blog/:year-:month-:day-:title/" # change the post URL to look like the old ones
+
+[params]
+
+  # --- Start sidebar options ---
+  # Number of last posts that will be displayed in the sidebar - set to 0 or remove to hide this section
+  sidebarRecentLimit = 7
+
+  # Sidebar header - passed to markdownify so you can write markdown here
+  sidebarHeader = "`Information and Recent Posts`"
+
+  # Sidebar text also supports markdown
+  # New lines can be added with two spaces at the end of line. New paragraphs can be added with two an empty line.
+  # when adding two new lines, remember to remove the indentation otherwise the new line will be treated as a codeblock
+  sidebarText = """Welcome to my website.
+  
+  On this website I'll post different information I discover while doing research into various topics.
+  
+  If you have any questions or concerns, you can contact me at:
+  
+  garrisonvanzin@gmail.com
+  """
+  # Sidebar menu - if true will add a sidebar menu between sidebar text and recent posts
+  sidebarMenuEnabled = true
+  sidebarMenuHeader = "Important Links"
+
+  # --- End sidebar options ---
+
+  # If set to true, navigation menu links will open in a new window with the exception of links to root ("/")
+  # If this item does not exist or set to false, then navigation menu links will open in the same window
+  navigationNewWindow = true
+
+  # If false, all of blog post will appear on front page (and in pagination)
+  truncate = true
+
+  # Author's name (appears in meta tags and under posts)
+  author = "Garrison V"
+
+  # This text appears in the site header under website title
+  subtitle = "Website for research and information learned."
+
+  # Search engine URL
+  searchEngineURL = "https://www.google.com/search"
+
+  # Text of the "Continue Reading" label. Supports markdown and inline HTML.
+  # For example, &rarr; == right arrow.
+  continueReadingText = "Click to read more &rarr;"
+
+  # Switch to true to enable RSS icon link
+  rss = true
+
+  # Set to true to use a text label for RSS instead of an icon
+  # This is overwritten by the "rss" setting
+  textrss = false
+
+  # Website's default description
+  description = ""
+
+  # 404.html header and text - both support markdown
+  notFoundHeader = "There's nothing here"
+
+  notFoundText = """Please either go back or use the navigation/sidebar menus.
+  """
+
+  # Set to true to hide ReadingTime on posts
+  disableReadingTime = false
+
+  # Set to true to disable downloading of remote Google fonts
+  disableGoogleFonts = true
+
+  # Generate taxonomy pages
+  generateTaxonomyList = true
+
+# Menu
+# If navigationNewWindow (under [params]) is set to true then all links except root ("/") will open in a new window
+# If it does not exist or is set to false then links will open in the same window
+[[menu.main]]
+  Name = "test location"
+  URL = "https://www.example.net/"
+  weight = -5
+
+#[[menu.main]]
+#  Name = "This theme on Github"
+#  URL = "https://www.github.com/parsiya/hugo-octopress"
+
+
+# Sidebar menus
+# Enable with "sidebarMenuEnabled = true" under [params]
+# Header text is "sidebarMenuHeader" under [params]
+[[menu.sidebar]]
+  Name = "Website Github Repo"
+  URL = "https://github.com/gvanzin-allegheny/researchwebsite"
+  weight = 0
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 8
+    startLevel = 1
+  [markup.highlight]
+    style = "solarized-dark"
