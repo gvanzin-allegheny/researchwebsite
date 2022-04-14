@@ -24,7 +24,7 @@ training the network, I'll generate a histogram of the control image and use the
 frames to have the algorithm predict how a change in the histogram would affect an images mood and coloring. 
 I can also use other image information such as average colors and more.
 
-The prototype comes with these features included:
+**The prototype comes with these features included:**
 
 - Search for timelapse videos on youtube
 - Download videos
@@ -34,7 +34,7 @@ The prototype comes with these features included:
 - Easy to use terminal interface
 - Compatable with both linux and windows? (only tested on linux)
 
-To run the program you must follow these steps:
+**To run the program you must follow these steps:**
 
 Run the command in the prototype src `poetry run python data_collection_main.py` in your terminal.
 
@@ -42,7 +42,7 @@ You will be greeted with a screen that asks what task you want the program to co
 
 The tasks are sorted in the order they must be completed. 
 
-In order to get the prototype to work, I used these API's and documentation as well :
+**In order to get the prototype to work, I used these API's and documentation as well :**
 
 https://pytube.io/en/latest/
 
