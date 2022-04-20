@@ -7,3 +7,7 @@ layout = "a65njk3iolp231sdxz.html"
 +++
 
 ![](/frog.gif)
+
+<p align="center">
+  <img src="/frog.gif" />
+</p>
