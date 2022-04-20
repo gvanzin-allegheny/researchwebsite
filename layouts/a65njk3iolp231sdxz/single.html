@@ -8,8 +8,26 @@
         {{ .Scratch.Set "isHome" false }}
 
         <div class="entry-content">
-          <img class="center-fit" src='/frog.gif' id="frog">
-          
+          <html>
+            <head>
+              <style>
+                  * {
+                      margin: 0;
+                      padding: 0;
+                  }
+                  .imgbox {
+                      display: grid;
+                      width: 200%;
+                      height: 200%;
+                  }
+              </style>
+          </head>
+          <body>
+          <div class="imgbox">
+              <image src='/frog.gif' id="frog">
+          </div>
+          </body>
+          </html>
           
         </div>
       </article>
