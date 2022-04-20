@@ -1,3 +1,8 @@
 body {
     background-color: black;
 }
+
+img.animated-gif{
+    width: auto;
+    height: auto;
+}
