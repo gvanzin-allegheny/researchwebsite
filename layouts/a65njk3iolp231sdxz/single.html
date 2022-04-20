@@ -14,14 +14,23 @@
                   * {
                       margin: 0;
                       padding: 0;
-                      width: 200%;
-                      height: 200%;
                   }
-              </style>
-          </head>
-          <body>
-              <image src='/frog.gif' id="frog">
-          </body>
+                  .imgbox {
+                      display: grid;
+                      height: 100%;
+                  }
+                  .center-fit {
+                      max-width: 100%;
+                      max-height: 100vh;
+                      margin: auto;
+                  }
+                </style>
+            </head>
+            <body>
+            <div class="imgbox">
+                <img class="center-fit" src='/frog.gif'>
+            </div>
+            </body>
           </html>
           
         </div>
