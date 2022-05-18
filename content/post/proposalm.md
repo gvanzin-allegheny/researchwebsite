@@ -6,7 +6,7 @@ tags = [
     "frames",
     "opencv",
 ]
-date = "2022-04-14"
+date = "2022-05-18"
 categories = [
     "OpenCV",
     "AI",
