@@ -3,7 +3,7 @@ languageCode: "en-us"
 title: "Hugo Profile"
 theme: "hugo-profile"
 
-ignoreErrors = ["error-remote-getjson"]
+ignoreErrors: ["error-remote-getjson"]
 
 Paginate: 3
 disqusShortname: gurusabarish
