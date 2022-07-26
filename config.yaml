@@ -1,7 +1,7 @@
-baseURL: 'https://researchwebsite580.netlify.app'
-languageCode: 'en-us'
-title: 'Hugo Profile'
-theme: 'hugo-profile'
+baseURL: "https://researchwebsite580.netlify.app"
+languageCode: "en-us"
+title: "Hugo Profile"
+theme: "hugo-profile"
 
 Paginate: 3
 disqusShortname: gurusabarish
