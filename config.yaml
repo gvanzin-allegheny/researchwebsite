@@ -1,8 +1,10 @@
 baseURL: "https://researchwebsite580.netlify.app"
 languageCode: "en-us"
 title: "Hugo Profile"
-theme: "hugo-profile"gggg
-gtregtegt
+theme: "hugo-profile"
+
+ignoreErrors = ["error-remote-getjson"]
+
 Paginate: 3
 disqusShortname: gurusabarish
 googleAnalytics: G-DWJJVE27WD
