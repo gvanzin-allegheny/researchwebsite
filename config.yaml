@@ -1,6 +1,6 @@
-baseURL: "https://researchwebsite580.netlify.app"
+baseURL: "https://garrisonvanzin.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "About Me"
 theme: "hugo-profile"
 
 ignoreErrors: ["error-remote-getjson"]
@@ -91,7 +91,7 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
+    title: "Garrison."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
     image: /images/hero.svg
