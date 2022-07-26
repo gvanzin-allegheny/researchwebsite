@@ -16,10 +16,10 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
+    - identifier: research
+      name: Research
+      title: Research
+      url: /research
       weight: 1
 
     #Dropdown menu
