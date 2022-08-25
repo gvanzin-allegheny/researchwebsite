@@ -42,7 +42,7 @@ Menus:
 
 params:
   #title: "Hugo Profile"
-  title: "Garrison Vanzin"
+  title: "Welcome"
   description: A website about me and what I do.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/iconr.png"
