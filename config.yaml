@@ -45,7 +45,7 @@ params:
   title: "Garrison Vanzin"
   description: A website about me and what I do.
   # staticPath: ""  # The path to serve the static files from
-  favicon: ""
+  favicon: "/iconr.png"
 
   theme:
     disableThemeToggle: false
