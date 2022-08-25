@@ -195,7 +195,7 @@ params:
           url: "https://example.com"
 
   # Achievements
-  achievements:
+  knowledge:
     enable: true
     items:
       - title: Extended Experience
