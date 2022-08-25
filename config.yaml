@@ -106,8 +106,6 @@ params:
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/garrison-vanzin-7760141aa/
       customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
 
   # About
   about:
@@ -146,7 +144,7 @@ params:
         content: "While at Right Hand Technology, I learned the principles behind networking, cybersecurity, and IT work and put those ideas into practice through various tasks both remote and onsite."
 
       - job: "Cook"
-        company: "Wendy's"
+        company: "Wendys"
         companyUrl: "https://www.wendys.com/"
         date: "May 2017 - May 2019"
         featuredLink:
