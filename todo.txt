@@ -1,3 +1,5 @@
 - Add underline to each section header
 
 - Rename top right utton 'achievements' to 'knowledge'
+
+- Find way to list elements in achievements/knowledge blocks
