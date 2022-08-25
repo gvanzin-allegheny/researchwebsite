@@ -153,11 +153,7 @@ params:
           enable: true
           name: "Company Website"
           url: "https://www.wendys.com/"
-        info:
-          enable: false
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          Working at Wendy’s in High School allowed me to gain a basic understanding of skills needed in all jobs. While here, I learned to multitask and plan ahead more efficiently while performing under pressure during busy hours of the day.
+        content: "Working at Wendy’s in High School allowed me to gain a basic understanding of skills needed in all jobs. While here, I learned to multitask and plan ahead more efficiently while performing under pressure during busy hours of the day."
 
       - job: "Volunteer Software Developer"
         company: "Aurora Hosting"
