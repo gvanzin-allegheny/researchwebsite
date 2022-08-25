@@ -135,65 +135,41 @@ params:
   experience:
     enable: true
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Information Technology Intern"
+        company: "Right Hand Technology Group"
+        companyUrl: "https://www.righthandtechnologygroup.com/"
+        date: "May 2020 - Feb 2022"
         featuredLink:
           enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          name: "Company Website"
+          url: "https://www.righthandtechnologygroup.com/"
+        content: "While at Right Hand Technology, I learned the principles behind networking, cybersecurity, and IT work and put those ideas into practice through various tasks both remote and onsite."
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+      - job: "Cook"
+        company: "Wendy's"
+        companyUrl: "https://www.wendys.com/"
+        date: "May 2017 - May 2019"
         featuredLink:
           enable: true
-          url: "https://example.com"
+          name: "Company Website"
+          url: "https://www.wendys.com/"
         info:
-          enable: true
+          enable: false
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Working at Wendy’s in High School allowed me to gain a basic understanding of skills needed in all jobs. While here, I learned to multitask and plan ahead more efficiently while performing under pressure during busy hours of the day.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
+      - job: "Volunteer Software Developer"
+        company: "Aurora Hosting"
         companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+        date: "April 2014 - Nov 2019"
         info:
           enable: false
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          At Aurora Hosting, I developed plugins and apps in both Java and C++ for the various services they run.  These plugins were used to facilitate features for the playerbase that would join the servers they hosted on their hardware.
 
   # Education
   education:
