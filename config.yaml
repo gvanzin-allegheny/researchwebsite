@@ -197,19 +197,43 @@ params:
   achievements:
     enable: true
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Extended Experience
+        content: |-
+          Programming Languages I am very familiar with.
+
+          - Java
+          - Python
+          - C
+      - title: Intermediate Experience
+        content: |-
+          Programming Languages I am familiar with.
+
+          - HTML
+          - CSS
+          - C++
+      - title: Basic Experience
+        content: |-
+          Programming Languages I am somewhat familiar with.
+
+          - RStudio
+          - JavaScript
+      - title: APIs
+        content: |-
+          Source code and APIs I am familiar with.
+
+          - Maven
+          - Poetry
+          - Docker
+          - Git
+      - title: Applications & Tools
+        content: |-
+          Applications and tools I am well versed with.
+
+          - Github
+          - Eclipse
+          - Visual Studio
+          - JetBrains
+          - Gitlab
 
   # projects
   projects:
@@ -264,7 +288,7 @@ params:
     btnName: Mail me
 
   footer:
-    recentPosts: true
+    recentPosts: false
     socialNetworks:
       github: https://github.com/gvanzin-allegheny
       linkedin: https://www.linkedin.com/in/garrison-vanzin-7760141aa/
