@@ -170,41 +170,27 @@ params:
     enable: true
     # index: true
     items:
-      - title: "Master of Business Administration"
+      - title: "Allegheny College - Undergraduate Degree"
         school:
-          name: "University of California, Berkeley"
+          name: "Major in 'Computer Science' - Double Minor in 'Physics' and 'Art, Science, and Innovation'"
           url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+        date: "August 2019 - Present"
+        GPA: "3.473 out of 4.0"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+            - Ski Club - Travel once or twice to various lodges during the winter season to go skiing as a group.
+            - ARGO - Gather together every weekend to play various boardgames and play games.
+      - title: "Canon-McMillan High School - High School Diploma"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: ""
+          url: ""
+        date: "March 2015 - May 2019"
+        GPA: "4.1 out of 5.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Canon Mac High School was where I learned Java through various classes that increased in difficulty. While here, I also participated in the Ski Club and German Honor Society as after school hobbies.
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
           url: "https://example.com"
 
   # Achievements
