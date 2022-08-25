@@ -113,13 +113,15 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/imager.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      Ever since I was a child, I have had a fascination with computers and how they work.  After beginning high school, I learned my school offered a programming course and knew I had to take it.  This led me on the path I'm at now studying to become a software developer at Allegheny College.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      While I tend to jump around to a variety of different fields when it comes to projects, my main interest lie in game development and artifical intelligence.  I find the two fascinating as through game development you can bring your ideas to life (well on screen), amd artifical intelligence helps you to automate the process in different ways.
+
+      I am looking forward to learning much more as I go forward academically and career-wise in these fields.
     skills:
-      enable: true
+      enable: false
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML"
