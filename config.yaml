@@ -114,11 +114,11 @@ params:
     title: "About Me"
     image: "/images/imaged.png"
     content: |-
-      Ever since I was a child, I have had a fascination with computers and how they work.  After beginning high school, I learned my school offered a programming course and knew I had to take it.  This led me on the path I'm at now studying to become a software developer at Allegheny College.
+      Ever since I was a child, I have had a fascination with computers and how they work.  After beginning high school, I learned my school offered a programming course and knew I had to take it.  This led me on my current path, studying to become a software developer at Allegheny College.
 
-      While I tend to jump around to a variety of different fields when it comes to projects, my main interest lie in game development and artifical intelligence.  I find the two fascinating as through game development you can bring your ideas to life (well on screen), amd artifical intelligence helps you to automate the process in different ways.
+      While I tend to gravitate to a variety of different fields when it comes to projects, my main interests lie in game development and artificial intelligence.  I find the two fascinating, for through game development you can bring your ideas to life, (on screen), while artificial intelligence helps you to automate the process in different ways.
 
-      I am looking forward to learning much more as I go forward academically and career-wise in these fields.
+      I am looking forward to learning much more as I advance academically and career-wise in these fields.
     skills:
       enable: false
       title: "Here are a few technologies I've been working with recently:"
@@ -142,7 +142,7 @@ params:
           enable: true
           name: "Company Website"
           url: "https://www.righthandtechnologygroup.com/"
-        content: "While at Right Hand Technology, I learned the principles behind networking, cybersecurity, and IT work and put those ideas into practice through various tasks both remote and onsite."
+        content: "While at Right Hand Technology, I learned the principles behind networking, cybersecurity, as well as IT, and put those ideas into practice through various tasks both remote and onsite."
 
       - job: "Cook"
         company: "Wendys"
@@ -174,21 +174,21 @@ params:
       - title: "Allegheny College - Undergraduate Degree"
         school:
           name: "Major in 'Computer Science' - Double Minor in 'Physics' and 'Art, Science, and Innovation'"
-          url: "https://example.org"
+          url: "hhttps://sites.allegheny.edu/compsci/"
         date: "August 2019 - Present"
-        GPA: "3.473 out of 4.0"
+        GPA: "3.473"
         content: |-
           Extracurricular Activities
             - Ski Club - Travel once or twice to various lodges during the winter season to go skiing as a group.
-            - ARGO - Gather together every weekend to play various boardgames and play games.
+            - ARGO - Gather together every weekend to play various boardgames and miscellaneous activites.
       - title: "Canon-McMillan High School - High School Diploma"
         school:
           name: ""
           url: ""
         date: "March 2015 - May 2019"
-        GPA: "4.1 out of 5.0"
+        GPA: "4.1"
         content: |-
-          Canon Mac High School was where I learned Java through various classes that increased in difficulty. While here, I also participated in the Ski Club and German Honor Society as after school hobbies.
+          Canon Mac High School was where I learned Java through various classes that increased in difficulty. While here, as after school hobbies, I also participated in the Ski Club and German Honor Society.
         featuredLink:
           enable: false
           name: "My academic record"
@@ -200,27 +200,27 @@ params:
     items:
       - title: Extended Experience
         content: |-
-          Programming Languages I am very familiar with.
+          Programming Languages I am very familiar with:
 
           - Java
           - Python
           - C
       - title: Intermediate Experience
         content: |-
-          Programming Languages I am familiar with.
+          Programming Languages I am familiar with:
 
           - HTML
           - CSS
           - C++
       - title: Basic Experience
         content: |-
-          Programming Languages I am somewhat familiar with.
+          Programming Languages I am somewhat familiar with:
 
           - RStudio
           - JavaScript
       - title: APIs
         content: |-
-          Source code and APIs I am familiar with.
+          Source code and APIs I am familiar with:
 
           - Maven
           - Poetry
@@ -228,7 +228,7 @@ params:
           - Git
       - title: Applications & Tools
         content: |-
-          Applications and tools I am well versed with.
+          Applications and tools I am well versed with:
 
           - Github
           - Eclipse
